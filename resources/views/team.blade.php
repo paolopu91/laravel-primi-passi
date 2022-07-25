@@ -9,6 +9,7 @@
     <title>Team</title>
 </head>
 <body>
+    
     <header>
         <div class="text-center">
             <h1 class="text-primary">Membri del Team</h1>

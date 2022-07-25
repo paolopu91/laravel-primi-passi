@@ -17,7 +17,7 @@
 <header>
     <div>
         <a href=" {{ route("home") }} ">home</a>
-        <a href=" {{ route("about_us")}}">About Us</a>
+        <a href=" {{ route("about_me")}}">About Us</a>
         <a href=" {{ route("team")}}">Team</a>
     </div>
 </header>

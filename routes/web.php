@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home', "Hello World");
+    
+    return view('home');
 })->name("home");
 
 
 
-Route::get('/', function(){
+Route::get('/about_me', function(){
     $AboutMe=[
         'name'=> 'Paolo',
         'surname'=> 'Pugliese',
@@ -29,11 +30,11 @@ Route::get('/', function(){
     return view('About', [
     'AboutMe'=> $AboutMe
 ]);
-})->name("about_us");
+})->name("about_me");
 
 
 
-Route::get('/', function(){
+Route::get('/team', function(){
     $team =[
         'user1'=>'Paolo',
         'user2'=> 'Matteo',
